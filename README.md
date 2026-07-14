@@ -17,6 +17,7 @@ We highly recommend reading the [Amazon Appendix of the Algorithm Theoretical Ba
 Use the workflow-specific README inside the directory you plan to work on.
 
 - Start with [lulc_30m_landsat/collection9/README.md](./lulc_30m_landsat/collection9/README.md) for the established Landsat 30 m pipeline.
+- Start with [lulc_30m_landsat/collection10/README.md](./lulc_30m_landsat/collection10/README.md) for the imported Landsat Collection 10 pipeline.
 - Start with [lulc_10m_sentinel/collection-3/README.md](./lulc_10m_sentinel/collection-3/README.md) for the Sentinel-2 10 m Collection 3 pipeline.
 - Use the root README only for repository-wide orientation and directory layout.
 
@@ -25,14 +26,16 @@ Use the workflow-specific README inside the directory you plan to work on.
 | Workflow | Main entry point | Current role |
 | --- | --- | --- |
 | Landsat 30 m | [lulc_30m_landsat/collection9/README.md](./lulc_30m_landsat/collection9/README.md) | Established workflow with notebook-based classification and Python post-processing |
+| Landsat Collection 10 | [lulc_30m_landsat/collection10/README.md](./lulc_30m_landsat/collection10/README.md) | Imported Earth Engine workflow from `cgi-imazon/mapbiomas_classification` |
 | Sentinel-2 10 m | [lulc_10m_sentinel/collection-3/README.md](./lulc_10m_sentinel/collection-3/README.md) | Sequential Earth Engine pipeline with Python sampling/classification and Code Editor post-processing |
 
 ## Repository Structure
 
 ### `lulc_30m_landsat/`
-Contains the current 30 m Landsat workflow, including shared modules, Collection 9 scripts, and CSV rule tables.
+Contains Landsat workflows and supporting code, including shared modules, Collection 9 scripts, Collection 10 imports, and CSV rule tables.
 
 - [Collection 9 workflow](./lulc_30m_landsat/collection9)
+- [Collection 10 workflow](./lulc_30m_landsat/collection10)
 - [Shared Python modules](./lulc_30m_landsat/modules)
 - [Support CSV files](./lulc_30m_landsat/csv)
 - [Landsat workflow notes](./lulc_30m_landsat/collection9/README.md)

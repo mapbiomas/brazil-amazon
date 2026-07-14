@@ -1,0 +1,10 @@
+earthengine-api
+pandas
+geopandas
+python-dotenv
+retry
+seaborn
+rasterio
+scikit-learn
+gcloud
+geemap

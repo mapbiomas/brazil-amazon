@@ -14,7 +14,7 @@ We highly recommend reading the [Amazon Appendix of the Algorithm Theoretical Ba
 
 ## Scope
 
-Use this directory for Landsat-specific notebooks, scripts, and tables. Repository-wide guidance and shared visual assets live in the root [README](../../README.md).
+Use this directory for the Collection 9 Landsat notebook workflow, scripts, and tables. For the imported Collection 10 workflow, see [../collection10/README.md](../collection10/README.md). Repository-wide guidance and shared visual assets live in the root [README](../../README.md).
 
 ## Workflow Summary
 

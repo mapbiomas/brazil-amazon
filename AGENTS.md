@@ -1,7 +1,7 @@
 # Repository Guidelines
 
 ## Project Structure & Module Organization
-This repository is organized by sensor/product line. `lulc_30m_landsat/` contains the active Landsat workflow: shared logic in `modules/`, operational scripts in `collection9/`, and support tables in `csv/`. `lulc_10m_sentinel/` contains the Sentinel-2 workflow, currently centered on `collection-3/` with numbered Earth Engine scripts and `data/areas-sentinel-2.csv`. Repository-wide visual assets such as logos live in the root `assets/` directory. Keep root-level docs focused on repository-wide orientation.
+This repository is organized by sensor/product line. `lulc_30m_landsat/` contains Landsat workflows: shared logic in `modules/`, the notebook-oriented `collection9/` pipeline, the imported `collection10/` Earth Engine workflow, and support tables in `csv/`. `lulc_10m_sentinel/` contains the Sentinel-2 workflow, currently centered on `collection-3/` with numbered Earth Engine scripts and `data/areas-sentinel-2.csv`. Repository-wide visual assets such as logos live in the root `assets/` directory. Keep root-level docs focused on repository-wide orientation.
 
 ## Build, Test, and Development Commands
 There is no build system in this repo. Work is run directly with Python 3 and authenticated Earth Engine access.
@@ -11,13 +11,15 @@ There is no build system in this repo. Work is run directly with Python 3 and au
 - `jupyter notebook lulc_30m_landsat/collection9/mapbiomas-classification-amazon.ipynb`: open the main Landsat classification workflow.
 - `python3 lulc_30m_landsat/collection9/mapbiomas-classification-mode-rf.py`: reduce per-scene classifications into yearly outputs.
 - `python3 lulc_30m_landsat/collection9/mapbiomas-classification-filter.py`: apply spatial and temporal cleanup rules.
+- `python3 lulc_30m_landsat/collection10/01_get_dataset_samples.py`: start the imported Landsat Collection 10 sampling flow.
+- `python3 lulc_30m_landsat/collection10/02_classify_scene.py`: run the Collection 10 scene classification stage after reviewing source-specific paths and assets.
 - `python3 lulc_10m_sentinel/collection-3/1-mapbiomas-sentinel-2-extract-stable-samples-1.py`: start the Sentinel Collection 3 export chain.
 - `python3 lulc_10m_sentinel/collection-3/4-mapbiomas-sentinel-2-classify-2.py`: run the Sentinel classification stage after samples are exported.
 
 Run commands from the repository root so relative paths such as `../csv/temporal-filter-rules-col6.csv` resolve correctly.
 
 ## Documentation Guidelines
-Update the root `README.md` when moving or adding top-level workflows. Keep workflow-specific operational details inside the relevant subdirectory, for example `lulc_30m_landsat/collection9/README.md` and `lulc_10m_sentinel/collection-3/README.md`. Do not mix Landsat and Sentinel execution notes in the same document.
+Update the root `README.md` when moving or adding top-level workflows. Keep workflow-specific operational details inside the relevant subdirectory, for example `lulc_30m_landsat/collection9/README.md`, `lulc_30m_landsat/collection10/README.md`, and `lulc_10m_sentinel/collection-3/README.md`. Do not mix Landsat and Sentinel execution notes in the same document.
 
 ## Coding Style & Naming Conventions
 Follow the existing Python style: 4-space indentation, module-level constants in `UPPER_SNAKE_CASE`, functions in `snake_case`, and short descriptive docstrings when behavior is not obvious. Preserve the current Earth Engine pattern of explicit `ee.Initialize()` near script startup. Sentinel scripts also include GEE Code Editor `.js` files; keep them browser/Code Editor compatible and avoid introducing Node-specific syntax.
