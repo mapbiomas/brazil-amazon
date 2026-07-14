@@ -1,6 +1,6 @@
 <div style="display: flex; justify-content: space-between; align-items: flex-start;">
     <h1>Amazon Biome</h1>
-    <div>
+    <div style="display: flex; align-items: center; gap: 28px;">
         <img src="./assets/logo.png" width="220" alt="Imazon logo">
         <img src="./assets/ecode-logo.png" width="110" alt="Ecode logo">
     </div>
@@ -38,9 +38,6 @@ Contains the current 30 m Landsat workflow, including shared modules, Collection
 - [Shared Python modules](./lulc_30m_landsat/modules)
 - [Support CSV files](./lulc_30m_landsat/csv)
 - [Landsat workflow notes](./lulc_30m_landsat/collection9/README.md)
-
-### `assets/`
-Contains repository-wide visual assets such as the Imazon and Ecode logos used in documentation.
 
 ### `lulc_10m_sentinel/`
 Contains the 10 m Sentinel-2 workflow and its Collection 3 scripts, data tables, and local documentation.
