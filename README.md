@@ -3,7 +3,7 @@
     <h1>Amazon Biome</h1>
 </div>
 
-Developed by ***Imazon***.
+Developed by ***Imazon*** e ***Ecode***.
 
 ## About
 
