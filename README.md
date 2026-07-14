@@ -21,14 +21,6 @@ Use the workflow-specific README inside the directory you plan to work on.
 - Start with [lulc_10m_sentinel/collection-3/README.md](./lulc_10m_sentinel/collection-3/README.md) for the Sentinel-2 10 m Collection 3 pipeline.
 - Use the root README only for repository-wide orientation and directory layout.
 
-## Workflow Comparison
-
-| Workflow | Main entry point | Current role |
-| --- | --- | --- |
-| Landsat 30 m | [lulc_30m_landsat/collection9/README.md](./lulc_30m_landsat/collection9/README.md) | Established workflow with notebook-based classification and Python post-processing |
-| Landsat Collection 10 | [lulc_30m_landsat/collection10/README.md](./lulc_30m_landsat/collection10/README.md) | Imported Earth Engine workflow from `cgi-imazon/mapbiomas_classification` |
-| Sentinel-2 10 m | [lulc_10m_sentinel/collection-3/README.md](./lulc_10m_sentinel/collection-3/README.md) | Sequential Earth Engine pipeline with Python sampling/classification and Code Editor post-processing |
-
 ## Repository Structure
 
 ### `lulc_30m_landsat/`
