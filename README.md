@@ -1,10 +1,8 @@
-<div style="display: flex; justify-content: space-between; align-items: flex-start;">
-    <h1>Amazon Biome</h1>
-    <div style="display: flex; align-items: center; gap: 28px;">
-        <img src="./assets/logo.png" width="220" alt="Imazon logo">
-        <img src="./assets/ecode-logo.png" width="110" alt="Ecode logo">
-    </div>
-</div>
+<p align="center">
+    <img src="./assets/header-banner-v2.png" alt="Imazon and Ecode banner">
+</p>
+
+# Amazon Biome
 
 Developed by ***Imazon*** e ***Ecode***.
 
