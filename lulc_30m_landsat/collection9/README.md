@@ -1,5 +1,5 @@
 <div>
-    <img src='./assets/logo.png' height='auto' width='240' align='right'>
+    <img src='../assets/logo.png' height='auto' width='240' align='right'>
     <h1>Amazon Biome</h1>
 </div>
 
@@ -7,9 +7,13 @@ Developed by ***Imazon***.
 
 ## About
 
-This repository contains the scripts to classify and filter the **Amazon** biome. 
+This directory contains the 30 m Landsat workflow used to classify and filter the **Amazon** biome.
 
 We highly recommend the reading of [Amazon's Appendix of the Algorithm Theoretical Basis Document (ATBD)](https://mapbiomas.org/download-dos-atbds). The fundamental information about the classification and methodology is there. 
+
+## Scope
+
+Use this directory for Landsat-specific notebooks, scripts, tables, and supporting assets. Repository-wide guidance lives in the root [README](../../README.md).
 
 ## How to use
 1. [Create an account](https://developers.google.com/earth-engine/guides/python_install) in Google Earth Engine plataform.
@@ -18,7 +22,7 @@ We highly recommend the reading of [Amazon's Appendix of the Algorithm Theoretic
 
 3. Install the Earth Engine [python API](https://developers.google.com/earth-engine/guides/python_install) and get the credentials. 
 
-4. Download or clone this repository to your local workspace.
+4. Download or clone this repository to your local workspace and run commands from `lulc_30m_landsat/collection9/` or from the repository root with explicit paths.
 
 ### Example of the samples
 

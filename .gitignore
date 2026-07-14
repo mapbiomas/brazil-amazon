@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# macOS
+.DS_Store
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Local environment files
+.env
+.env.*
