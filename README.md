@@ -1,6 +1,9 @@
-<div>
-    <img src='./lulc_30m_landsat/assets/logo.png' height='auto' width='240' align='right'>
+<div style="display: flex; justify-content: space-between; align-items: flex-start;">
     <h1>Amazon Biome</h1>
+    <div>
+        <img src="./assets/logo.png" width="220" alt="Imazon logo">
+        <img src="./assets/ecode-logo.png" width="110" alt="Ecode logo">
+    </div>
 </div>
 
 Developed by ***Imazon*** e ***Ecode***.
@@ -29,12 +32,15 @@ Use the workflow-specific README inside the directory you plan to work on.
 ## Repository Structure
 
 ### `lulc_30m_landsat/`
-Contains the current 30 m Landsat workflow, including shared modules, Collection 9 scripts, CSV rule tables, and assets.
+Contains the current 30 m Landsat workflow, including shared modules, Collection 9 scripts, and CSV rule tables.
 
 - [Collection 9 workflow](./lulc_30m_landsat/collection9)
 - [Shared Python modules](./lulc_30m_landsat/modules)
 - [Support CSV files](./lulc_30m_landsat/csv)
 - [Landsat workflow notes](./lulc_30m_landsat/collection9/README.md)
+
+### `assets/`
+Contains repository-wide visual assets such as the Imazon and Ecode logos used in documentation.
 
 ### `lulc_10m_sentinel/`
 Contains the 10 m Sentinel-2 workflow and its Collection 3 scripts, data tables, and local documentation.

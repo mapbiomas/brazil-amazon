@@ -1,6 +1,9 @@
-<div>
-    <img src='../assets/logo.png' height='auto' width='240' align='right'>
+<div style="display: flex; justify-content: space-between; align-items: flex-start;">
     <h1>Amazon Biome</h1>
+    <div>
+        <img src="../../assets/logo.png" width="220" alt="Imazon logo">
+        <img src="../../assets/ecode-logo.png" width="110" alt="Ecode logo">
+    </div>
 </div>
 
 Developed by ***Imazon*** e ***Ecode***.
@@ -13,7 +16,7 @@ We highly recommend reading the [Amazon Appendix of the Algorithm Theoretical Ba
 
 ## Scope
 
-Use this directory for Landsat-specific notebooks, scripts, tables, and supporting assets. Repository-wide guidance lives in the root [README](../../README.md).
+Use this directory for Landsat-specific notebooks, scripts, and tables. Repository-wide guidance and shared visual assets live in the root [README](../../README.md).
 
 ## Workflow Summary
 

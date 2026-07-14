@@ -1,7 +1,7 @@
 # Repository Guidelines
 
 ## Project Structure & Module Organization
-This repository is organized by sensor/product line. `lulc_30m_landsat/` contains the active Landsat workflow: shared logic in `modules/`, operational scripts in `collection9/`, support tables in `csv/`, and static images in `assets/`. `lulc_10m_sentinel/` contains the Sentinel-2 workflow, currently centered on `collection-3/` with numbered Earth Engine scripts and `data/areas-sentinel-2.csv`. Keep root-level docs focused on repository-wide orientation.
+This repository is organized by sensor/product line. `lulc_30m_landsat/` contains the active Landsat workflow: shared logic in `modules/`, operational scripts in `collection9/`, and support tables in `csv/`. `lulc_10m_sentinel/` contains the Sentinel-2 workflow, currently centered on `collection-3/` with numbered Earth Engine scripts and `data/areas-sentinel-2.csv`. Repository-wide visual assets such as logos live in the root `assets/` directory. Keep root-level docs focused on repository-wide orientation.
 
 ## Build, Test, and Development Commands
 There is no build system in this repo. Work is run directly with Python 3 and authenticated Earth Engine access.
