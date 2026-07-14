@@ -2,6 +2,8 @@
 
 This directory contains the current Sentinel-2 Collection 3 mapping workflow for the Amazon biome.
 
+Repository-wide guidance lives in the root [README](../../README.md).
+
 ## Workflow Summary
 
 The pipeline is sequential. Each stage exports Earth Engine assets consumed by the next stage.

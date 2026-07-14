@@ -2,10 +2,16 @@
 
 This directory contains the 10 m Sentinel-2 land use and land cover workflow for the Amazon biome.
 
+Repository-wide guidance lives in the root [README](../README.md).
+
+## Where to Start
+
+Start with [collection-3/README.md](./collection-3/README.md). It contains the execution order, per-script notes, and operational constraints for the active Sentinel workflow.
+
 ## Structure
 
 - `collection-3/`: current operational workflow
-- `collection-3/data/`: support tables used by the classification stage
+- `collection-3/data/`: support table used by the classification stage
 
 ## Execution Model
 

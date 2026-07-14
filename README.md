@@ -9,7 +9,22 @@ Developed by ***Imazon*** e ***Ecode***.
 
 This repository contains land use and land cover workflows for the **Amazon** biome.
 
-We highly recommend the reading of [Amazon's Appendix of the Algorithm Theoretical Basis Document (ATBD)](https://mapbiomas.org/download-dos-atbds). The fundamental information about the classification and methodology is there.
+We highly recommend reading the [Amazon Appendix of the Algorithm Theoretical Basis Document (ATBD)](https://mapbiomas.org/download-dos-atbds). It contains the core methodology behind these workflows.
+
+## Getting Started
+
+Use the workflow-specific README inside the directory you plan to work on.
+
+- Start with [lulc_30m_landsat/collection9/README.md](./lulc_30m_landsat/collection9/README.md) for the established Landsat 30 m pipeline.
+- Start with [lulc_10m_sentinel/collection-3/README.md](./lulc_10m_sentinel/collection-3/README.md) for the Sentinel-2 10 m Collection 3 pipeline.
+- Use the root README only for repository-wide orientation and directory layout.
+
+## Workflow Comparison
+
+| Workflow | Main entry point | Current role |
+| --- | --- | --- |
+| Landsat 30 m | [lulc_30m_landsat/collection9/README.md](./lulc_30m_landsat/collection9/README.md) | Established workflow with notebook-based classification and Python post-processing |
+| Sentinel-2 10 m | [lulc_10m_sentinel/collection-3/README.md](./lulc_10m_sentinel/collection-3/README.md) | Sequential Earth Engine pipeline with Python sampling/classification and Code Editor post-processing |
 
 ## Repository Structure
 
