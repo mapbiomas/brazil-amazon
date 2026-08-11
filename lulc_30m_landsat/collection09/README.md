@@ -33,7 +33,7 @@ Before running the workflow:
 
 1. Create a Google Earth Engine account and configure local authentication.
 2. Use Python 3 with the Earth Engine Python API installed.
-3. Run commands either from `lulc_30m_landsat/collection9/` or from the repository root with explicit paths.
+3. Run commands either from `lulc_30m_landsat/collection09/` or from the repository root with explicit paths.
 
 ## Main Inputs
 
